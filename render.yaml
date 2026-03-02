@@ -5,17 +5,3 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn main:app
     plan: free
-```
-
-4. Scroll down → click **Commit changes** → **Commit directly to main**
-
----
-
-## Then redeploy on Render
-
-1. Go to **dashboard.render.com** → your service
-2. Click **Manual Deploy → Deploy latest commit**
-3. Watch the logs — should now show:
-```
-==> Running 'gunicorn main:app'
-==> Your service is live 🎉
