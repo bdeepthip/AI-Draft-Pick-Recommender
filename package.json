@@ -1,0 +1,12 @@
+{
+  "name": "ai_teamselection",
+  "version": "1.0.0",
+  "description": "AI Team Selection Project",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo Build complete",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
